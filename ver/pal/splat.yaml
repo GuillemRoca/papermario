@@ -1759,7 +1759,7 @@ segments:
       - [0x25B608]
       - [0x25B610, ia8, fr/title/languages, 64, 16]
       - [0x25BA10]
-      - [0x25BA18, ia8, es/title/start_game, 120, 16]
+      - [0x25BA18, ia8, es/title/start_game, 104, 16]  # CA: INICIAR JOC
       - [0x25C198]
       - [0x25C1A0, ia8, es/title/languages, 64, 16]
   # These imgs should be individually split as 16x16 each flag

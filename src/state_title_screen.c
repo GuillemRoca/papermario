@@ -110,10 +110,10 @@ Gfx TitleSetupGfx[] = {
 };
 
 #if VERSION_PAL
-s32 StartGame_Width[] = { 96,   88,   144,  120 };
-s32 Languages_Width[] = { 88,   80,    64,   64 };
-s32 StartGame_PosX[] = { 116,  120,   88,  106 };
-s32 Languages_PosX[] = { 121,  124,  130,  132 };
+s32 StartGame_Width[] = { 96,   88,   144,  104 };  // CA: INICIAR JOC (was 120 for ES)
+s32 Languages_Width[] = { 88,   80,    64,   64 };  // CA: IDIOMES (same as ES)
+s32 StartGame_PosX[] = { 116,  120,   88,  112 };   // CA: (320-104)/2 ~= 112 (was 106 for ES)
+s32 Languages_PosX[] = { 121,  124,  130,  132 };   // CA: same as ES
 #endif
 
 typedef struct TitleDataStruct {
